@@ -1,8 +1,18 @@
 import React, { useState } from 'react';
-
+import { Button } from '@/components/ui/button';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { 
+  GraduationCap, 
+  Briefcase, 
+  Search,
+  Filter,
+  ChevronRight
+} from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const QualificationFilter: React.FC = () => {
- 
+  const [selectedQualification, setSelectedQualification] = useState<string | null>(null);
 
   
 
