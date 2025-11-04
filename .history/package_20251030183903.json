@@ -1,0 +1,6 @@
+{
+  "$schema": "./package-schema.json",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
